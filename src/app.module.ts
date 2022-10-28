@@ -12,7 +12,7 @@ import { UsuarioModule } from './usuario/usuario.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'postgres',
+      type: 'postgres', 
       url: process.env.DATABASE_URL,
       logging: false,
       dropSchema: false,
